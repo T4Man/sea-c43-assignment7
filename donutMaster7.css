@@ -1,0 +1,155 @@
+/*CSS for donutMaster.html Code Fellows Foundations 1 Assignment 7*/
+body {
+  max-width: 900px;
+  min-width: 500px;
+  background-color: #F7F7FB;
+  font-family: Georgia, Times, serif;
+  font-size: 16px;
+}
+
+h3 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+img {
+ margin-left: 36%;
+ margin-right: 33%;
+}
+
+li button {
+  font-size: 1em;
+  margin: 2px;
+  border: 2px solid red;
+}
+
+table {
+  margin-left: 10%;
+}
+
+th, td {
+  border-top: 1px solid red;
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+  border-bottom: 1px solid red;
+  text-align: center;
+  padding: 5px;
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(255, 255, 204)
+}
+
+ul {
+  list-style: none;
+}
+
+.dunk {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-left: 10%;
+}
+
+.headerReplacement {
+  text-indent: -9999px;
+  width: 175px;
+  height: 110px;
+  background: url(http://timali4man.com/Images/donutMasterLogo1.gif);
+  margin-bottom: -110px;
+}
+
+.overlay {
+  max-width: 75%;
+  margin-top: -475px;
+}
+
+.shopList {
+  margin-right: 0;
+  max-width: 280px;
+}
+
+#addStoreButton {
+  display: block;
+  background-color: light-blue;
+  border: 2px solid red;
+  font-size: 1.0em;
+  margin: 2px;
+  width: 244px;
+}
+
+#coffeeCup {
+  margin: 0;
+  position: relative;
+}
+
+#empty {
+  background-color: #777;
+}
+
+#glazedDonut {
+  margin: 0;
+}
+
+#headingsRow {
+  background-color: pink;
+}
+
+#listStores {
+  background-color: rgb(255, 255, 204);
+  border: 2px solid red;
+  font-size: 1em;
+  margin: 2px;
+  width: 244px;
+}
+
+#newAvgDonutsPerCust {
+  width: 240px;
+}
+
+#newBusinessHours {
+  width: 240px;
+}
+
+#newMaxCustPerHour {
+  width: 240px;
+}
+
+#newMinCustPerHour {
+  width: 240px;
+}
+
+#newStoreButton {
+  background-color: rgb(255, 255, 204);
+  border: 2px solid red;
+  font-size: 1em;
+  margin: 2px;
+  width: 244px;
+}
+
+#newStoreButton {
+  padding: 10px 20px 75px 20px;
+  display: none;
+}
+#newStoreForm {
+  background-color: rgb(255, 255, 204);
+  border: 2px solid red;
+  font-size: 1em;
+  margin: 2px;
+  width: 246px;
+}
+
+#newStoreForm input[type='submit'] {
+  margin-top: 0; text-align: left;
+}
+
+#newStoreLocation {
+  width: 240px;
+}
+
+#tableButton {
+  background-color: light-blue;
+  border: 2px solid red;
+  font-size: 1.0em;
+  margin: 2px;
+}
+

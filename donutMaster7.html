@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DonutMaster</title>
+    <link rel="stylesheet" type="text/css" href="donutMaster7.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="headerReplacement">Donut Master</h1>
+    </header>
+    <div class="slogan">
+      <img src="http://timali4man.com/Images/eatDonuts.gif"
+        alt=Eating Donuts></img>
+      <h3 >It's food and fun rolled into a bun!</h3>
+      <img id="coffeeCup" src="http://timali4man.com/Images/coffeeCup.jpg" alt=coffeeCup>
+      </img>
+      <img id="glazedDonut" src="http://timali4man.com/Images/glazed_donut.jpg" alt=GlazedDonut></img>
+    </div>
+    <button id="addStoreButton">Click Here to Add New Store</button>
+    <form id="newStoreForm">
+      <input type="text" id="newStoreLocation" placeholder="Enter new store location name" />
+      <input type="number" id="newMinCustPerHour" placeholder="Enter minimum customers per hour" />
+      <input type="number" id="newMaxCustPerHour" placeholder="Enter maximum customers per hour" />
+      <input type="number" id="newAvgDonutsPerCust" placeholder="Enter average donuts per sale" />
+      <input type="number" id="newBusinessHours" placeholder="Enter total hours open daily" />
+      <button id='newStoreBtn' type="button">Add Store</button>
+    </form>
+    <button id="tableButton">Show Table: Sales by Location</button>
+    <table id="dmTable">
+      <tr id="headingsRow">
+        <th>Location</th>
+        <th>Business Hours</th>
+        <th>Avg Donuts Per Hour</th>
+        <th>Total Donuts Per Day</th>
+      </tr>
+    </table>
+    <section>
+      <button id="listStores">Show List of Store Locations</button>
+        <ul class="shopList">
+          <li><button id="store1">Belltown</button></li>
+          <li><button id="store2">Capitol Hill</button></li>
+          <li><button id="store3">South Lake Union</button></li>
+          <li><button id="store4">Roosevelt</button></li>
+          <li><button id="store5">Ballard</button></li>
+          <li><button id="store6">Pioneer Square</button></li>
+        </ul>
+      <div class="overlay">
+        <img id="BelltownShop" src="http://timali4man.com/Images/BelltownShop.png" alt=BelltownMap></img>
+        <img id="CapHillShop" src="http://timali4man.com/Images/CapHillShop.png" alt=CapitolHillMap></img>
+        <img id="SLUshop" src="http://timali4man.com/Images/SLUshop.png" alt=SouthLakeUnionMap></img>
+        <img id="RooseveltShop" src="http://timali4man.com/Images/RooseveltShop.png" alt=RooseveltMap></img>
+        <img id="BallardShop" src="http://timali4man.com/Images/BallardShop.png" alt=BallardMap></img>
+        <img id="PioneerSquareShop" src="http://timali4man.com/Images/PioneerSquareShop.png" alt=PioneerSquareMap></img>
+      </div>
+    </section>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="donutMaster7.js"></script>
+  </body>
+</html>
